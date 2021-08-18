@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseHeader component should render CourseHeader component with props 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <CourseHeader
+    coursesPage={
+      Object {
+        "0": Object {
+          "mentorName": "Semeon Zaltz",
+          "name": "Front-end trainee course",
+          "rating": "4.6",
+          "technologies": Array [
+            "Java Script",
+            "React",
+            "MobX-state-tree",
+            "CSS",
+          ],
+        },
+      }
+    }
+  />
+</ContextProvider>
+`;

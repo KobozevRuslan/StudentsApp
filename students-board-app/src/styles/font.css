@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('../assets/fonts/NHaasGroteskDSPro-55Rg.otf') format('opentype');
+}
+  
+@font-face {
+  font-family: 'Neue Haas Grotesk medium';
+  src: url('../assets/fonts/NHaasGroteskDSPro-65Md.otf') format('opentype');
+}
